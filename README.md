@@ -5,10 +5,10 @@ Crypto js for react, react-native, angular.
 
 `import crypto from './crypto';`
 or
-`const crypto = require('./crypto');
+`const crypto = require('./crypto');`
 
-    const secret = 'open-sesame';
-    const hash = crypto.createHmac('sha256', secret)
+`const secret = 'open-sesame';
+ const hash = crypto.createHmac('sha256', secret)
                    .update('abcdefg')
                    .digest('hex');`
                    
